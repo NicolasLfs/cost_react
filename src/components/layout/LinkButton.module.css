@@ -1,0 +1,18 @@
+:root {
+    --background-linkbtn: #222;
+    --color-text-linkbtn: #fff;
+    --color-text-linkbtn-hover: #ffbb33;
+}
+
+.btn {
+     background-color: var(--background-linkbtn);
+     color: var(--color-text-linkbtn);
+     padding: 0.5em 1em;
+     text-decoration: none;
+     transition: ease-in-out .5s;
+     border-radius: 5px;   
+}
+
+.btn:hover {
+    color: var(--color-text-linkbtn-hover);
+}

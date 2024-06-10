@@ -1,0 +1,19 @@
+:root {
+    --background-btn-form: #222;
+    --color-text-btn-form: #fff;
+    --color-text-btn-form-hover: #ffbb33;
+}
+
+.btn {
+    background-color: var(--background-btn-form);
+    color: var(--color-text-btn-form);
+    padding: 0.7em 1.2em;
+    text-decoration: none;
+    transition: 0.5s;
+    cursor: pointer;
+    border: none;
+}
+
+.btn:hover {
+    color: var(--color-text-btn-form-hover);
+}

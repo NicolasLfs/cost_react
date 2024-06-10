@@ -1,0 +1,63 @@
+{
+  "projects": [
+    {
+      "id": "3d81",
+      "name": "Layout 1.6",
+      "budget": "24000",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 5100,
+      "services": [
+        {
+          "name": "Serviço 1",
+          "cost": "2000",
+          "description": "Criação Logo",
+          "id": "a052b7b4-79e0-49f3-a6d2-ce6c9ef3c71b"
+        },
+        {
+          "name": "Edição Logo",
+          "cost": "500",
+          "description": "Edição Logo",
+          "id": "46ac7403-9def-4b35-bb6d-1adbbaa0e256"
+        },
+        {
+          "name": "Novo Serviço",
+          "cost": "100",
+          "description": "Teste",
+          "id": "82d5df80-61bd-40b3-9e90-7230c468f9da"
+        }
+      ]
+    },
+    {
+      "id": "36dd",
+      "name": "Desenvolvimento Web",
+      "budget": "60000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": []
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Infra"
+    },
+    {
+      "id": "2",
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": "3",
+      "name": "Design"
+    },
+    {
+      "id": "4",
+      "name": "Planejamento"
+    }
+  ]
+}

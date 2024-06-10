@@ -1,0 +1,31 @@
+:root {
+    --color-border: #000;
+    --color-border-success: #c3e6cb;
+    --color-border-error: #f5c6cb;
+    --color-text-success: #155724;
+    --color-text-error: #721c24;
+    --background-success: #d4edda;
+    --background-error: #f8d7da;
+}
+
+.message {
+    width: 100%;
+    padding: 1em;
+    border: 1px solid var(--color-border);
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 2em;
+    border-radius: 5px;
+}
+
+.success {
+    color: var(--color-text-success);
+    background-color: var(--background-success);
+    border-color: var(--color-border-success);
+}
+
+.error {
+    color: var(--color-text-error);
+    background-color: var(--background-error);
+    border-color: var(--color-border-error);
+}

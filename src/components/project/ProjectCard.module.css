@@ -1,0 +1,105 @@
+:root {
+    --color-border-card: #7a7a7a;
+    --color-titulo-card: #ffbb33;
+    --background-titulo-card: #222;
+    --color-text-card: #7a7a7a;
+    --color-span-category: #ccc;
+    --color-span-category-infra: #ffaebc;
+    --color-span-category-dev: #a0e7e5;
+    --color-span-category-design: #b4f8c8;
+    --color-span-category-planejamento: #fbe7c6;
+    --background-actions-card: #fff;
+    --color-actions-card: #222;
+    --border-color-actions: #222;
+    --background-actions-card-hover: #222;
+    --color-actions-card-hover: #ffbb33;
+}
+
+.project_card {
+    padding: 1em;
+    border: 1px solid var(--color-border-card);
+    border-radius: 5px;
+    width: 24%;
+    margin: 0.5%;
+}
+
+.project_card h4 {
+    background-color: var(--background-titulo-card);
+    color: var(--color-titulo-card);
+    padding: 0.4em;
+    margin-bottom: 1.3em;
+    font-size: 1.3em;
+}
+
+.project_card p {
+    color: var(--color-text-card);
+    margin-bottom: 1em;
+}
+
+.project_card p span {
+    font-weight: bold;
+}
+
+.category_text {
+    display: flex;
+    align-items: center;
+}
+
+.category_text span {
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--color-span-category);
+    margin-right: 5px;
+}
+
+.category_text .infra {
+    background-color: var(--color-span-category-infra);
+}
+
+.category_text .desenvolvimento {
+    background-color: var(--color-span-category-dev);
+}
+
+.category_text .design {
+    background-color: var(--color-span-category-design);
+}
+
+.category_text .planejamento {
+    background-color: var(--color-span-category-planejamento);
+}
+
+.projects_card_actions {
+    margin-top: 1.2em;
+    display: flex;
+    align-items: center;
+}
+
+.projects_card_actions a,
+.projects_card_actions button {
+    text-decoration: none;
+    border: none;
+    background-color: var(--background-actions-card);
+    color: var(--color-actions-card);
+    font-size: 1.2em;
+    padding: .3em .6em;
+    margin-right: 1em;
+    cursor: pointer;
+    border: 1px solid var(--border-color-actions);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.projects_card_actions svg {
+    margin-right: 0.5em;
+}
+
+.projects_card_actions a:hover,
+.projects_card_actions button:hover {
+    background-color: var(--background-actions-card-hover);
+    color: var(--color-actions-card-hover);
+}

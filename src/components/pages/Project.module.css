@@ -1,0 +1,58 @@
+:root {
+    --background-color-h1: #222;
+    --color-text-h1: #ffbb33;
+    --color-divisor-container: #7a7a7a;
+    --background-linkbtn: #222;
+    --color-text-linkbtn: #fff;
+    --color-text-linkbtn-hover: #ffbb33;
+}
+
+.project_details {
+    padding: 2em;
+}
+
+.project_details h1,
+.project_details h2,
+.project_details p {
+    margin-bottom: 0.5em;
+}
+
+.project_details h1 {
+    background-color: var(--background-color-h1);
+    color: var(--color-text-h1);
+    padding: .4em;
+}
+
+.project_details span {
+    font-weight: bold;
+}
+
+.details_container, 
+.service_form_container {
+    border-bottom: 1px solid var(--color-divisor-container);
+    margin-bottom: 1.2em;
+    padding-bottom: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.btn {
+    background-color: var(--background-linkbtn);
+    color: var(--color-text-linkbtn);
+    padding: 0.5em 1em;
+    text-decoration: none;
+    transition: ease-in-out .5s;
+    border-radius: 5px;   
+    cursor: pointer;
+    max-height: 40px;
+    border: none;
+}
+
+.btn:hover {
+   color: var(--color-text-linkbtn-hover);
+}
+
+.project_info {
+    width: 100%;
+}
